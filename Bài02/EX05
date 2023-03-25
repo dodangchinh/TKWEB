@@ -75,8 +75,8 @@ ul{
   
   
     #newsletter form input[type="email"], .quote input, .quote textarea{
-      width: 36%;
-      margin-bottom: 5px;
+      chiều rộng:  25px;
+      lề dưới: 5px;
     }
   
   
