@@ -1,72 +1,74 @@
 body{
-    background-color: rgb(248, 247, 247);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: -1px -1px -1px -1px;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
   }
   
   
   /* Header **/
   header{
-      background-color: rgb(2, 65, 255);
-      color: white;
-      padding: 50px 100px 5px 0;
-      border-bottom: 10px solid #110b7e;
-      columns: 2;
-      font-size: 15px;
+    background:blue;
+    color:#f7f7fa;
+    padding-top:5px;
+    min-height:5px;
+    border-bottom:#240b6c 10px solid;
   }
-
+  
   header a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size:25px;
+    color: rgb(247, 247, 249);
+    text-decoration:solid;
+    text-transform:uppercase; 
+    font-size: 17px;
   }
   
   header li{
     display:inline-block;
-    padding-right: 15px;
+    padding-right: 20px;
     text-align: right;
+    float:none;
   }
-
+  
   header #branding{
-    background-color: rgb(2, 65, 255);
+    float: none;
   }
   
   header #branding h1{
-    background-color: rgb(2, 65, 255);
-    padding:px 0;
-    margin: 0 ;  
+    margin: 0;
   }
   
   header nav{
-   position: initial;
-   transform: translateX(0);
-   opacity: 1;
-   justify-content: flex-end;
-   display: flex;
-   background-color: rgb(2, 65, 255);
-   align-items:end;
-   font-size: 1px;
+    float: right;
+    margin-top:-40px;
   }
   
   header .highlight, header .current a{
-    color:#0e087e;
+    color: rgb(10, 10, 128);
+    font-weight:0;
   }
   
   header a:hover{
-    color: #0e087e;
-  }
-
-  footer{
-      background-color: blue;
-      color: white;
-      padding: 20px 50px 20px 0;
-      text-align: center ;     
+    color: rgb(10, 10, 128);
+    font-weight:0;
   }
   
-  #newsletter form input[type="email"], .quote input, .quote textarea{
-    color: blue;
-    
+  
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:blue;
+    text-align: center;
   }
+  
+  
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  
+  
 
 
   
