@@ -27,7 +27,7 @@ ul{
 .dark{
   background-color: yellow;
   color: black;
-
+  padding: 20px;
 }
   
   /* Header **/
