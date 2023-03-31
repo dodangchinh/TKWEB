@@ -20,7 +20,7 @@ ul{
 .button_1{
   background-color: rgb(10, 10, 128);
   color: white;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom:
 }
 
