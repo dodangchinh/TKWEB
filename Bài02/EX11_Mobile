@@ -1,0 +1,196 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+/* Global */
+.container{
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 55px;
+    
+}
+
+ul{
+    margin-left: 70px;
+}
+
+.button_1{
+  background-color: rgb(10, 10, 128);
+  color: white;
+  font-size: 23px;
+  margin-bottom:
+}
+
+.dark{
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  
+}
+  
+  /* Header **/
+  header{
+    background:blue;
+    color:#f7f7fa;
+    padding-top:20px;
+    min-height:60px;
+    border-bottom:#240b6c 10px solid;
+  }
+  
+  header a{
+    color: rgb(247, 247, 249);
+    text-decoration:solid;
+    text-transform:uppercase; 
+    font-size: 17px;
+  }
+  
+  header li{
+    display:inline-block;
+    padding-right: 20px;
+    text-align: right;
+    float:none;
+  }
+  
+  header #branding{
+    float: none;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top:-40px;
+  }
+  
+  header .highlight, header .current a{
+    color: rgb(10, 10, 128);
+    font-weight:0;
+  }
+  
+  header a:hover{
+    color: rgb(10, 10, 128);
+    font-weight:0;
+  }
+  
+  /* Showcase */
+#showcase{
+    background-image:url(/Ma\ nguon\ cac\ bai\ tap/EX06/img/Showcase.jpg);
+    padding: 100px ;
+}
+
+#showcase h1{
+   font-size: 35px;
+   color: white;
+   text-align: center;
+}
+
+#showcase p{
+  font-size:12px;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+/* Newsletter */
+#newsletter{
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  margin-left: -80px;
+  
+}
+
+#newsletter h1{
+  
+}
+
+#newsletter form {
+  margin-left: 600px;
+  margin-top: -50px;
+  width: 90%;
+
+}
+
+/* Boxes */
+#boxes{
+  columns: 3;
+}
+
+#boxes .box{
+  width: 250px;
+  text-align: center;
+  margin-left: -40px;
+}
+
+#boxes .box img{
+  width: 100px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  width: 40%;
+  margin-left: 500px;
+  margin-top: -330px;
+  padding: 70px;
+  overflow: hidden;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 100%;
+}
+
+/* Main-col */
+article#main-col{
+  width: 70%;
+  margin-left: -50px;
+}  
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:blue;
+    text-align: center;
+
+  }
+  
+/* Services */
+ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+  }
+  
+#newsletter form input[type="email"], .quote input, .quote textarea{
+      width: 30%;
+      padding: 4px;
+    }
+
+/* Media Queries */
+@media(max-width: 768px){
+
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+  }
+  
